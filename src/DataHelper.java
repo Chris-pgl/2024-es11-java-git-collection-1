@@ -21,7 +21,7 @@ public class DataHelper {
     // restituisce una lista di numeri interi casuali compresi tra min e max
     public static List<Integer> getRandomInteger(int size, int min, int max) {
         Random rmd = new Random();
-        List<Integer> list = new java.util.ArrayList<Integer>();
+        List<Integer> list = new java.util.ArrayList<>();
         for (int i = 0; i < size; i++) {
             list.add(rmd.nextInt(max - min + 1) + min);
             }
